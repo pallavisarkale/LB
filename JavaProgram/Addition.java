@@ -1,6 +1,5 @@
 package LB.JavaProgram;
 
-import LB.JavaProgram.AddFunction;
 import java.util.Scanner;
 
 public class Addition {
