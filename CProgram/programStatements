@@ -1,0 +1,86 @@
+1/ Write a program to perform addition of 2 numbers
+
+
+2/ Program to display 5 times Hello on screen using while loop
+
+
+3/ Program to display 5 times Hello on screen using for loop
+
+
+4/ Program to display 5 times Hello on screen
+
+
+5/Program to display 1 to 5 on Screen using for loop
+
+
+6/Program to display 1 to 5 on Screen using while loop
+
+
+7/Accept number from user and return summation
+//input=4 o/p=4+3+2+1=10
+
+8/Accept number from user and check whether number is even or odd
+
+
+9/Accept choice from user for gold coin  and return bill using switch case
+//1 gram=4000     2 gram=8000    5 gram=20000      10 gram=40000
+
+
+10/Accept choice from user for gold coin  and return bill using if else 
+//1 gram=4000     2 gram=8000    5 gram=20000      10 gram=40000
+
+
+11/Accept percentage f from user and check whether student is in which class like pass,fail,distingtion 
+//0 to 35 --------------> Fail
+//35 to 50 ------------->Pass
+//50 to 60 ------------->Second class
+//60 to 70  ------------>first class
+//70 to 100 ------------>first class with Distingtion
+
+
+12/Accept number from user and check whether number is divisible by 5 and 3 
+//using int rather than bool
+//use bool insted of int because int required 32 bit more memory than bool
+
+13/Accept number from user and check whether number is divisible by 5 and 3   using int
+
+14/Accept number from user and check whether it prime or not
+
+15/Accept number from user and check whether it palindrome or not
+
+16/Accept number from user and print that number of even numbers of screen
+
+17/Accept number from user and print that factorial of that  number
+
+18/Accept number from user and print that even factorial of that  number
+
+19/Accept one character from user and convert case of that character
+
+20/Accept one character from user and check whether that character is vowel(a,e,i,o,u) or not
+
+###########Problems on number:#################
+
+1)In this topic we accept number in decimal format from user and we have to perform operation on that number.
+2)Almost every questions based on numbers required loop for iteration.
+
+we haveto optimise the number of iterations to reduce the time complexity if it is possible.
+
+#############Time complexity###############
+
+Time complexity of every application is directly depends on a loop that we used to solve the problem statement.
+As good programming practice our target is used to reduce the number of iterations without affecting logic. application with the list time complexity is consider as and efficient application.
+time complexity is only there in the application if it uses iteration (loop).
+
+
+
+21/Accept number from user and find the factors of that number  
+/Time complexity is O(N/2)
+
+/every time not possible to reduce Time complexity 
+/in program29.c  we need to iterate for loop n times to get non factor
+/in program30.c we iterate loop n/2
+
+22/Accept number from user and return summation of that factors
+
+23/Accept number from user and return that number is perfect or not :
+/Perfect means summation of factor is equal to that number eg.6     factor is 1,2,3 then 1+2+3=6
