@@ -84,3 +84,17 @@ time complexity is only there in the application if it uses iteration (loop).
 
 23/Accept number from user and return that number is perfect or not :
 /Perfect means summation of factor is equal to that number eg.6     factor is 1,2,3 then 1+2+3=6
+
+********************/problems on Digits********************
+
+/Accept number from user and display separet digit of that number
+/Input :34567
+/output :7  6   5   4   3
+
+
+/Accept number fro user  and return  sum of digits 
+/INPUT: 1234
+/OUTPUt:1+2+3+4=10
+
+/ Accept number from user and return reverse number;
+/ Accept number from user and return reverse number  and check palindrom or not

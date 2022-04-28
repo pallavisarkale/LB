@@ -24,6 +24,7 @@ bool checkPrime(int iNo)//if count of factor is 0
 bool Prime(int iNo)//if count of factor is 0
 {
     int iCnt=0;
+    
     for(iCnt=2;iCnt<=(iNo/2);iCnt++)
     {
         if ((iNo%iCnt)==0)
