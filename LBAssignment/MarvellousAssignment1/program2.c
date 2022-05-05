@@ -16,17 +16,36 @@
 void Display(int iNo1)
 {
     int iCnt=0;
-    for(iCnt=1;iCnt<=iNo1;iCnt++)
+
+//      1       2           3
+    for(iCnt=1;iCnt<=iNo1;iCnt++)  //1 ,2 ,4      3,2,4    3,2,4    3, 2,4     3,2,4    3,2
     {
-        printf("Marvellous \n");
+        printf("Marvellous \n");//4
     }
 }
+
 int main()
 {
     int iValue1=0;
+
     printf("How many times you want to print Marvellous on screen: \n");
     scanf("%d",&iValue1);
 
     Display(iValue1);
+
 return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

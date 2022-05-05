@@ -28,10 +28,11 @@ int Divide(int iNo1,int iNo2)
 }
 int main()
 {
-    int iValue1=15;
-    int iValue2=5;
-    int iRet=0;
+    int iValue1=0;
+    int iValue2=0;
 
+    int iRet=0;
+    
     printf("Enter number to divide: \n");
     scanf("%d%d",&iValue1,&iValue2);
 
@@ -41,3 +42,12 @@ int main()
     
 return 0;
 }
+
+
+
+
+
+
+
+
+
