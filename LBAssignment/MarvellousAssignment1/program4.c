@@ -1,4 +1,4 @@
-// write a program to print Marvellous  number is divisible by 5 or not
+// write a program to print  check whether  number is divisible by 5 or not
 
 #include<stdio.h>
 typedef int BOOL;
@@ -16,7 +16,7 @@ typedef int BOOL;
 //
 /////////////////////////////////////////////////////////////////////
 
-int Check(int iNo)
+BOOL Check(int iNo)
 {
    if ((iNo%5)==0)
    {

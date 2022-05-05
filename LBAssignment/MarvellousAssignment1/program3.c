@@ -1,4 +1,4 @@
-// write a program to print Marvellous  5 times on screen
+// write a program to  Used to print 5 to 1 number on screen
 
 #include<stdio.h>
 
@@ -15,9 +15,10 @@
 
 void Display(int iNo)
 {
-    for(int i=iNo;i>=1;i--)
+    int iCnt=0;
+    for(iCnt=iNo;iCnt>=1;iCnt--)
     {
-        printf(" %d",i);
+        printf(" %d",iCnt);
     }
 
 }
