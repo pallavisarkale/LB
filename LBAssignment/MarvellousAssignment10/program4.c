@@ -17,7 +17,7 @@ void Display(int Arr[],int iLength)
 
         while (iNo>0)
         {
-            iDigit=iDigit%10; 
+            iDigit=iNo%10; 
             iCount++;
             iNo=iNo/10;
 
