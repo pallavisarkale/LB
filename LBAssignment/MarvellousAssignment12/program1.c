@@ -1,15 +1,17 @@
 //Accept number from user and display below pattern
 //Input : 5
-//output: 1  2   3   4  5
+//output: A B   C   D   E
 
 #include<stdio.h>
 
 void Display(int iNo)
 {
     int iCnt=0;
-    for(iCnt=1;iCnt<=iNo;iCnt++)
+    char ch='\0';
+
+    for(iCnt=1,ch='a';iCnt<=iNo;iCnt++,ch ++)
     {
-        printf("%d\t",iCnt);
+        printf("%c\t",ch);
     }
 }
 int main()

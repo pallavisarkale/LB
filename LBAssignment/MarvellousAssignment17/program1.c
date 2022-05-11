@@ -1,13 +1,13 @@
 //Accept row and colums from user and print below output
 
-//Input:3  5
+//Input:4  4
 //output:
 /*
 
-4       4       4       4
-3       3       3       3
-2       2       2       2
-1       1       1       1
+*                        
+*       *                
+*       *       *        
+*       *       *       *
 
 */
 
@@ -18,13 +18,20 @@
 void Display(int iRow,int iCol)
 {
     int i=0,j=0;
-    
 
-    for(i=iRow;i>=1;i--)
+    for(i=1;i<=iRow;i++)
     {
         for(j=1;j<=iCol;j++)
         {
-            printf("%d\t",i);
+           if (i>=j)
+           {
+                printf("*\t");
+           }
+           else
+           {
+               printf(" \t");
+           }
+           
         }
         printf("\n");
     }
