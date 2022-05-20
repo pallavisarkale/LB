@@ -15,7 +15,7 @@ bool checkPerfect(int iNo)
     {
         if ((iNo%iCnt)==0)
         {
-        iSum=iSum+iCnt; 
+            iSum=iSum+iCnt; 
         } 
     }
     if (iSum==iNo)
