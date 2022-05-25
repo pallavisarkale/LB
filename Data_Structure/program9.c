@@ -47,13 +47,13 @@ void InsertFirst(PPNODE head, int no)
 
     if(*head == NULL)       // If LL is empty
     {
-           *head = newn;
+        *head = newn;
     }
     else        // LL contains atleast one node
     {
-            newn -> next  = *head;
-            (*head) -> prev = newn;       // *
-            *head = newn;
+        newn -> next  = *head;
+        (*head) -> prev = newn;       // *
+        *head = newn;
     }
 }
 
@@ -159,6 +159,7 @@ void InsertAtPos(PPNODE head, int no, int pos)
     else
     {
         temp = *head;
+        
         newn = (PNODE)malloc(sizeof(NODE));
 
         newn -> data = no;
