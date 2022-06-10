@@ -93,6 +93,28 @@ class AllFunctions
 
         return iRem;
     }
+
+    
+public int CountFactor()
+{
+    Scanner s=new Scanner(System.in);
+    int iNo=0;
+    System.out.println("Enter number :");
+    iNo=s.nextInt();
+    
+    int iCnt=0;
+    int count=0;
+    
+    for(iCnt=2;iCnt<=(iNo/2);iCnt++)//start from 2 beacuse any number is divisible by 1 
+    {
+        if(iNo%iCnt==0)
+        {
+            count++;
+        }   
+    }
+    return count;
+}
+
     public void DisplayString()              // Defination
     {
         Scanner s=new Scanner(System.in);
@@ -158,7 +180,8 @@ class Library {
         System.out.println("Odd Number");
 
         */
-        
+        int iRer1=f.CountFactor();
+        System.out.println(iRer1);
 
 
 
