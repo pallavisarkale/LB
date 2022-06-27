@@ -10,7 +10,7 @@ int SearchLastOccurence(int Arr[],int iLength,int iNo)
 
     for (iCnt=iLength-1;iCnt>=0;iCnt--)
     {
-         if(Arr[iCnt]==iNo)
+        if(Arr[iCnt]==iNo)
         {
             break;
         }

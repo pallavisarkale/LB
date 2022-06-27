@@ -1,15 +1,15 @@
-//Accept string from user and convert into uppercase
+//Accept string from user and convert into lowercase
 
 #include<iostream>
  using namespace std;
 
-void strUperX(char str[])
+void strwrX(char str[])
 {
    while (*str!='\0')
    {
-    if (*str>='a' && *str<='z')
+    if (*str>='A' && *str<='Z')
     {
-      *str=*str-32;
+      *str=*str+32;
     }
     str++;
      
@@ -25,8 +25,8 @@ void strUperX(char str[])
    //scanf("%[^'\n']s",Arr);   //print all Hello world  regex [^'\n']
    cin.getline(Arr,20);
    
-   strUperX(Arr);
-   cout<<"String is in Upperwer Case:"<<Arr<<endl;
+   strwrX(Arr);
+   cout<<"String is in Lower Case:"<<Arr<<endl;
 
    return 0;
  }

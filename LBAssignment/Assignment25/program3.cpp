@@ -1,15 +1,19 @@
-//Accept string from user and convert into uppercase
+//Accept string from user and Toggle the String (upperCase=Lower and Lower to upper)
 
 #include<iostream>
  using namespace std;
 
-void strUperX(char str[])
+void strToggleX(char str[])
 {
    while (*str!='\0')
    {
     if (*str>='a' && *str<='z')
     {
       *str=*str-32;
+    }
+    else if (*str>='A' && *str<='Z')
+    {
+      *str=*str+32;
     }
     str++;
      
@@ -25,8 +29,8 @@ void strUperX(char str[])
    //scanf("%[^'\n']s",Arr);   //print all Hello world  regex [^'\n']
    cin.getline(Arr,20);
    
-   strUperX(Arr);
-   cout<<"String is in Upperwer Case:"<<Arr<<endl;
+   strToggleX(Arr);
+   cout<<"String is in Toggle Case:"<<Arr<<endl;
 
    return 0;
  }
